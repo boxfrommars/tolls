@@ -1,0 +1,11 @@
+
+<p>
+    <select name="type" class="form-control input-sm" ng-options="item.name for item in MainCtrl.tracks" ng-model="MainCtrl.currentTrack" ng-change="MainCtrl.trackSelected()"></select>
+</p>
+
+<div class="row">
+    <div class="col-md-12">
+        <leaflet paths="MainCtrl.map.paths" data-controls="MainCtrl.map.controls" markers="MainCtrl.markers" center="MainCtrl.map.center" layers="MainCtrl.map.layers" height="700px" width="100%"></leaflet>
+    </div>
+</div>
+

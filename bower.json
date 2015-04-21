@@ -1,0 +1,31 @@
+{
+  "name": "tolls",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "^1.3.0",
+    "bootstrap": "^3.2.0",
+    "angular-animate": "^1.3.0",
+    "angular-cookies": "^1.3.0",
+    "angular-messages": "^1.3.0",
+    "angular-resource": "^1.3.0",
+    "angular-route": "^1.3.0",
+    "angular-leaflet-directive": "~0.7.10",
+    "moment": "~2.8.4",
+    "underscore": "~1.7.0",
+    "angular-sanitize": "^1.3.0",
+    "angular-touch": "^1.3.0",
+    "leaflet.draw": "~0.2.3",
+    "leaflet-plugins": "~1.2.1",
+    "Leaflet.awesome-markers": "~2.0.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.0"
+  },
+  "appPath": "app",
+  "moduleName": "tollsApp",
+  "overrides": {
+    "leaflet": {
+      "main": []
+    }
+  }
+}
